@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    $('.sidebar').remove();
+    $('.main-content').addClass('w-100');
     loadTabContent('artists');
     $('#admin_base_page')
         .on('click', '.tab-button',handleTabClick);
